@@ -2,6 +2,9 @@
   "name": "redux-bookstore",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.6.1"
+  },
   "dependencies": {
     "@babel/eslint-parser": "^7.15.0",
     "@testing-library/react": "^11.2.6",
