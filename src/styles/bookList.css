@@ -55,12 +55,12 @@
 }
 
 #right button {
-    background-color: #0290ff;
-    border: none;
-    border-radius: 0.35em;
-    color: #fff;
-    cursor: not-allowed;
-    padding: 8px 22px;
+  background-color: #0290ff;
+  border: none;
+  border-radius: 0.35em;
+  color: #fff;
+  cursor: not-allowed;
+  padding: 8px 22px;
 }
 
 .CATEGORIES {
@@ -80,6 +80,7 @@
   font-weight: 400;
   margin-bottom: 12px;
 }
+
 .actions {
   text-align: left;
 }
@@ -104,7 +105,7 @@
 }
 
 .chapter {
- margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .pie-graph {
