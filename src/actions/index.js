@@ -1,4 +1,3 @@
-// define all the Redux actions
 export const createAction = (book) => ({
   type: 'CREATE_BOOK',
   book,
