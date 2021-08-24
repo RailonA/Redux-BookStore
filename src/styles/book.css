@@ -2,6 +2,20 @@
   --main-blue-color: #4386bf;
 }
 
+.fullwidth {
+  width: 100%;
+}
+
+.robotoSlabFont {
+  font-family: RobotoSlab, sans-serif;
+}
+
+.mid-bold {
+  font-size: 0.813rem;
+  font-weight: 300;
+  height: 1.188rem;
+}
+
 .Lesson-Panel {
   height: 9rem;
   margin-bottom: 1.5rem;
@@ -29,11 +43,6 @@
   width: 253px;
 }
 
-.update-area {
-  display: flex;
-  flex-direction: column;
-}
-
 .chart {
   width: 4.25rem;
   height: 4.25rem;
@@ -50,41 +59,35 @@
   opacity: 0.5;
   font-family: Montserrat, sans-serif;
   font-size: 0.875rem;
-  font-weight: bold;
   color: var(--black-two);
 }
 
 .title {
-  width: 100%;
   height: 1.813rem;
   margin: 0.188rem 20.188rem 0 0;
-  font-family: RobotoSlab, sans-serif;
   font-size: 1.375rem;
-  font-weight: bold;
   letter-spacing: -0.2px;
   color: var(--black-two);
 }
 
-.sussan {
-  width: 100%;
-  height: 1.188rem;
-  font-family: RobotoSlab, sans-serif;
-  font-size: 0.875rem;
-  font-weight: 300;
+.sussan,
+.delete-area,
+.remove {
   color: var(--main-blue-color);
+}
+
+.sussan {
   margin-bottom: 30px;
   display: inline-block;
 }
 
-.delete-area {
-  color: var(--main-blue-color);
-}
-
-.delete-area span {
+.delete-area span,
+.remove {
   margin-right: 20px;
 }
 
-.Edit {
+.Edit,
+.remove {
   padding-left: 10px;
   border: none;
   border-left: 2px solid #ccc;
@@ -92,16 +95,7 @@
 
 .remove {
   width: 3.375rem;
-  height: 1.188rem;
-  margin-right: 20px;
-  font-family: RobotoSlab, sans-serif;
-  font-size: 0.875rem;
-  font-weight: 300;
-  color: var(--main-blue-color);
   background-color: transparent;
-  padding-left: 10px;
-  border: none;
-  border-left: 2px solid #ccc;
 }
 
 .panel-right-side:first-child {
@@ -109,8 +103,6 @@
 }
 
 .percentage-area {
-  display: flex;
-  flex-direction: column;
   width: 130px;
 }
 
@@ -122,36 +114,29 @@
   color: var(--black-two);
 }
 
+.Current-Chapter,
+.Update-progress {
+  text-align: left;
+}
+
 .Current-Chapter {
   width: 7.875rem;
   height: 1.125rem;
   margin: 0.063rem 3.625rem 0 3.688rem;
   opacity: 0.5;
-  font-family: RobotoSlab, sans-serif;
-  font-size: 0.813rem;
-  font-weight: 300;
   color: rgb(126, 123, 123);
-  text-align: left;
 }
 
 .Current-Lesson {
   width: 7rem;
   height: 1.313rem;
   margin: 0.438rem 6.813rem 0.25rem 3.688rem;
-  font-family: RobotoSlab, sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
   letter-spacing: -0.4px;
   color: #121212;
-  text-align: left;
 }
 
 .Update-progress {
   width: 8.938rem;
-  height: 1.125rem;
-  font-family: RobotoSlab, sans-serif;
-  font-size: 0.813rem;
-  font-weight: 300;
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;
