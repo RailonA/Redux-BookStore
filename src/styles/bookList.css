@@ -2,7 +2,6 @@
   --main-white-color: #ddd;
   --main-blue-color: #2274ee;
   --main-grey-color: grey;
-
 }
 
 .app-title {
@@ -26,12 +25,6 @@
 
 #left {
   flex-basis: 50%;
-}
-
-
-#center,
-.actions button:nth-child(2) {
-  border-right: 1px solid var(--main-white-color);
 }
 
 #center {
@@ -62,6 +55,11 @@
   border-left: 1px solid var(--main-white-color);
   margin: 0 8px;
   padding: 0 8px;
+}
+
+#center,
+.actions button:nth-child(2) {
+  border-right: 1px solid var(--main-white-color);
 }
 
 #right button {
