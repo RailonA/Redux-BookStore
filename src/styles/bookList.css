@@ -42,12 +42,6 @@
   text-align: left;
 }
 
-#right button,
-.CATEGORIES,
-.actions button {
-  border: none;
-}
-
 .actions button {
   background-color: transparent;
   color: #3a82b9;
@@ -61,6 +55,12 @@
   border-left: 1px solid var(--main-white-color);
   margin: 0 8px;
   padding: 0 8px;
+}
+
+.actions button,
+#right button,
+.CATEGORIES{
+  border: none;
 }
 
 #center,
