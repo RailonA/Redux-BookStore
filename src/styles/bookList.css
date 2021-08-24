@@ -47,6 +47,11 @@
   color: #3a82b9;
 }
 
+.actions button,
+.CATEGORIES {
+  border: none;
+}
+
 .actions button:nth-child(1) {
   padding-left: 0;
 }
@@ -55,12 +60,6 @@
   border-left: 1px solid var(--main-white-color);
   margin: 0 8px;
   padding: 0 8px;
-}
-
-.actions button,
-#right button,
-.CATEGORIES{
-  border: none;
 }
 
 #center,
@@ -72,6 +71,7 @@
   background-color: #0290ff;
   border-radius: 0.35em;
   color: #fff;
+  border: none;
   cursor: not-allowed;
   padding: 8px 22px;
 }
