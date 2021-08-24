@@ -19,7 +19,7 @@
   border: 1px solid #dfdfdf;
   background-color: #fff;
   border-radius: 0.3em;
-  display: flex;
+  .actions button: flex;
   margin-bottom: 1em;
   padding: 24px;
 }
@@ -50,7 +50,6 @@
 
 .actions button {
   background-color: transparent;
-  border: none;
   color: #3a82b9;
 }
 
@@ -66,11 +65,16 @@
 
 #right button {
   background-color: #0290ff;
-  border: none;
   border-radius: 0.35em;
   color: #fff;
   cursor: not-allowed;
   padding: 8px 22px;
+}
+
+#right button,
+.CATEGORIES,
+.actions button {
+  border: none;
 }
 
 .CATEGORIES {
@@ -78,7 +82,6 @@
   font-family: Arial, sans-serif;
   font-weight: 800;
   margin-bottom: -2px;
-  border: none;
 }
 
 .title {

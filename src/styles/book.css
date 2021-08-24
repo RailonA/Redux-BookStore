@@ -70,17 +70,19 @@
   color: var(--black-two);
 }
 
-.sussan {
+.sussan,
+.delete-area,
+.remove {
   color: var(--main-blue-color);
+}
+
+.sussan {
   margin-bottom: 30px;
   display: inline-block;
 }
 
-.delete-area {
-  color: var(--main-blue-color);
-}
-
-.delete-area span {
+.delete-area span,
+.remove {
   margin-right: 20px;
 }
 
@@ -93,10 +95,7 @@
 
 .remove {
   width: 3.375rem;
-  margin-right: 20px;
-  color: var(--main-blue-color);
   background-color: transparent;
-
 }
 
 .panel-right-side:first-child {

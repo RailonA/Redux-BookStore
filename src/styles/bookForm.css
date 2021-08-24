@@ -25,19 +25,25 @@
   margin-right: 2em;
 }
 
-.bookForm input {
+.bookForm input,
+.bookForm select {
   color: #555;
+  padding: 12px;
+}
+
+.bookForm input {
   flex-basis: 60%;
   font-size: 18px;
-  padding: 12px;
 }
 
 .bookForm select {
   background-color: #fff;
-  color: #555;
+}
+
+.bookForm select,
+.bookForm button {
   flex-basis: 20%;
   font-size: 16px;
-  padding: 12px;
 }
 
 .bookForm button {
@@ -45,7 +51,5 @@
   border: none;
   border-radius: 0.35em;
   color: #fff;
-  flex-basis: 20%;
-  font-size: 16px;
   padding: 8px 22px;
 }
