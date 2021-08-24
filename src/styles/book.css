@@ -84,7 +84,8 @@
   margin-right: 20px;
 }
 
-.Edit {
+.Edit,
+.remove {
   padding-left: 10px;
   border: none;
   border-left: 2px solid #ccc;
@@ -95,9 +96,7 @@
   margin-right: 20px;
   color: var(--main-blue-color);
   background-color: transparent;
-  padding-left: 10px;
-  border: none;
-  border-left: 2px solid #ccc;
+
 }
 
 .panel-right-side:first-child {
@@ -116,13 +115,17 @@
   color: var(--black-two);
 }
 
+.Current-Chapter,
+.Update-progress {
+  text-align: left;
+}
+
 .Current-Chapter {
   width: 7.875rem;
   height: 1.125rem;
   margin: 0.063rem 3.625rem 0 3.688rem;
   opacity: 0.5;
   color: rgb(126, 123, 123);
-  text-align: left;
 }
 
 .Current-Lesson {
@@ -131,7 +134,6 @@
   margin: 0.438rem 6.813rem 0.25rem 3.688rem;
   letter-spacing: -0.4px;
   color: #121212;
-  text-align: left;
 }
 
 .Update-progress {
