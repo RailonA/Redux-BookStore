@@ -7,13 +7,13 @@ function Book({ book, handleRemoveBook }) {
 
     <div className="Lesson-Panel align-center">
       <div className="left-title-area">
-        <span className="category font-normal">{book.category}</span>
-        <div className="title font-normal">{book.title}</div>
-        <span className="sussan font-normal">Suzanne Collins</span>
+        <span className="category font-normal fw-bold">{book.category}</span>
+        <div className="title font-normal fullwidth robotoSlabFont fw-bold">{book.title}</div>
+        <span className="sussan font-normal mid-bold fullwidth robotoSlabFont">Suzanne Collins</span>
 
         <div className="delete-area">
           <span className="Comments">Comments</span>
-          <button className="remove font-normal" type="button" onClick={() => handleRemoveBook(book)}>Remove</button>
+          <button className="remove  mid-bold font-normal robotoSlabFont" type="button" onClick={() => handleRemoveBook(book)}>Remove</button>
           <span className="Edit">Edit</span>
         </div>
       </div>
@@ -23,16 +23,16 @@ function Book({ book, handleRemoveBook }) {
         <div className="oval-area-wrapper align-center">
           <div className="chart" aria-label="chart" />
 
-          <div className="percentage-area">
+          <div className="d-flex flex-column">
             <span className="percentage font-normal">64%</span>
             <span className="">Completed</span>
           </div>
         </div>
 
-        <div className="update-area">
-          <span className="Current-Chapter font-normal">Current Chapter</span>
-          <span className="Current-Lesson font-normal">Chapter 17</span>
-          <span className="Update-progress font-normal">Update progress</span>
+        <div className="d-flex flex-column">
+          <span className="Current-Chapter  mid-bold font-normal robotoSlabFont">Current Chapter</span>
+          <span className="Current-Lesson  mid-bold font-normal robotoSlabFont">Chapter 17</span>
+          <span className="Update-progress font-normal robotoSlabFont">Update progress</span>
         </div>
 
       </div>
