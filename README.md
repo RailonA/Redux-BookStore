@@ -38,6 +38,7 @@
 ## Watch the Live Version
 
 [Live Demo](https://bookstoredeployment.herokuapp.com/)
+![screenshot](./src/assets/Screenshot.png)
 
 ### Prerequisites
 
